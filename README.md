@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Esha Ramroep
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  blauw
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+   surface plane
  
 </details>
 
@@ -36,15 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  dunkin
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  homepage
+  <img src="readme-images/homepagedunkinss.png" width="375px" alt="homepagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  FAQ
+  <img src="readme-images/faqpagedunkinss.png" width="375px" alt="FAQ pagina">
  
 </details>
 
@@ -57,7 +57,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-
+  - laadscherm staat percentage van het laden
+  - begint meteen de hele site voor te lezen en blijft haken bij DD nieuws en leest het steeds opnieuw
+  - bij niet alle buttons staat wat er het doet
+  - engelse en nederlandse reader wordt soms omgekeerd gelezen
 </details>
 
 
@@ -88,27 +91,26 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
+  bepalen van sections was makkelijker omdat in mijn website alles in blokken is opgedeeld
+  
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | esha      | student 2          | student 3    | student 4        |
+  | --- sticky header
+  met boven stuk + hoort het bij de nav 
+  taal button doet 
+  het zelf niet op 
+  de site    
+  uitklapbare faq     | ---                | ---          | ---              |
+  | |
   | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+HTML/Code: HTML is erg netjes, mooi ingesprongen en goed leesbaar. Gebruik een H1 element maar 1x per pagina. Voor je footer gewoon alles in het footer> element zetten. Je kan voor de order now een section gebruiken die je positions absolute geeft, zo blijft die kleven aan de bodem. Voor je header nog een tipje. Zet die topbar met tekst wel in de header. De navigatie zet je ook in je header maar in het nav element. Nu kan je header nav {} sticky maken.
+taal knop hoef ik niet te maken want die doet het ook niet op de echte website zo (het is locatie gerricht)
 </details>
 
 
@@ -176,17 +178,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  hoe ik de h1 moet zetten in homepage | dit als er tijd is | nog een punt | dit wil ik zeker 
+  sommige dingen niet downloadbaar|
   | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
+svg downloadbaar maar had een witte achtergrond, kan met div in de website zetten
+kan extra dingen toevoegen voor surface plane zoals dark mode of draaiende icoontjes
+  - punt 1 iconen als svg zodat je het kan animeren
+  - punt 2kan alleen als de svg inline staat in html 
   - nog een punt
+  weet nu hoe je svg van website halen en kan stijlen, hij was wit dus ik dacht dat het er niet was, maar er moest een backgroundcolor op
   - ...
 
 </details>
@@ -229,8 +233,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
-
+  1. chat gpt: "nav boven content plaatsen"
+  2. bron 2 https://www.w3schools.com/cssref/pr_pos_z-index.php 
+  3. https://codepen.io/argyleink/pen/wvOKbyL/2d672362df9ac37cf6920b5b6bc3a243 
+  https://tympanus.net/codrops/2024/01/17/a-practical-introduction-to-scroll-driven-animations-with-css-scroll-and-view/ */
+   https://developer.mozilla.org/en-US/docs/Web/API/Element/keypress_event
+bron chat gpt: hoe kan je de escape key later werken als de sluitknop
 </details>

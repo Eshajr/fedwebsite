@@ -1,21 +1,122 @@
 <!DOCTYPE html>
 <html lang="nl">
-	
 <head>
-	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Howdy FED2425</title>
-	
-	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <meta charset="UTF-8">
+    <meta name="author" content="jouw naam">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dunkin</title>
+    <link href="styles/style.css" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="preload" href="Debussy.woff2" as="font" type="font/woff2" crossorigin>
 </head>
 
 <body>
-	<h1>Howdy FED2425</h1>
+    <header>
+        <nav>
+            <p> dunkin' is op zoek naar jou! Bekijk onze vacatures</p>
+            <div class="nav-main">
+                <img src="images/nl.svg" alt="taal" class="taal">
+                <img src="images/dunkinlang.svg" alt="Logo" class="logo">
+                <button id="open-menu"><img src="images/hamburger.svg" alt="menu"></button>
+            </div>
 
-	<script defer src="scripts/script.js"></script>
+            <ul class="header">
+                <li><img src="images/nl.svg" alt="taal" class="taal"></li>
+                <li><img src="images/dunkinlang.svg" alt="Logo" class="logo"></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="#">Over Dunkin</a></li>
+               <li><button id="close-menu"><img src="images/peacehandimg.svg" alt="sluit"></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="we-love-coffee-section">
+            <img src="images/koffie2.png" alt="we love coffee">
+            <img src="images/koffie1.png" alt="koffie">
+            <img src="images/koffie1.png" alt="koffie">
+            <h2>WE LOVE COFFEE</h2>
+        </section>
+
+        <section class="gluten-free-donuts-section">
+            <img src="images/donuts_glutennvrij.png" alt="donuts glutenvrij">
+            <h3>NIEUW!</h3>
+        </section>
+        <section class="bezorging">
+            <h3>BESTEL!</h3>
+            <p>Maak een keuze</p>
+        <ul>
+            <li aria-label="bezorgen">
+                <label>
+                    <input type="radio" name="delivery-option" value="bezorgen">
+                    bezorgen
+                </label>
+            </li>
+            <li aria-label="afhalen">
+                <label>
+                    <input type="radio" name="delivery-option" value="afhalen">
+                    afhalen
+                </label>
+            </li>
+        </ul>
+        </section>
+        
+
+        <h1>BESTEL <span>DUNKIN</span> ONLINE</h1>
+        <section class="stappen">
+            <img src="images/peacehand.svg" alt="peace">
+            <h3>1. VUL JE POSTCODE IN</h3>
+            <p>Zoek jij een store in de buurt? Gebruik de Dunkin' storefinder.</p>
+        </section>
+        <section class="stappen">
+            <img src="images/donut.svg" alt="donut">
+            <h3>2. PLAATS JE BESTELLING</h3>
+            <p>Kies uit meer dan 200 verschillende donut smaken. Welke kies jij?</p>
+        </section>
+        <section class="stappen">
+            <img src="images/bestellingicoon.svg" alt="pakket">
+            <h3>3. ONTVANG JE BESTELLING</h3>
+        </section>
+
+        <section class="app">
+            <img src="images/availableappstore.svg" alt="app store">
+            <img src="images/avalaiblegoogleplay.svg" alt="googleplay">
+            <img src="images/mobileapp.svg" alt="mobile app">
+            <h3>APP JIJ 'M AL?</h3>
+            <h4>DE DUNKIN' APP</h4>
+            <p>Lekker scoren met exclusieve coupons en leuke campagnes met wonacties</p>
+        </section>
+
+
+    </main>
+    <footer>
+        <ul class="footer">
+            <li>STOREFINDER</li>
+            <li>JOBS</li>
+            <li>FAQ</li>
+            <li>OVER DUNKIN</li>
+        </ul>
+        <ul class="social-media-links">
+            <li><img src="images/tiktok.svg" alt="tiktok"></li>
+            <li><img src="images/insta.svg" alt="insta"></li>
+            <li><img src="images/facebook.svg" alt="facebook"></li>
+        </ul>
+        <section class="footertext">
+            <p>hij</p>
+        </section>
+        <section class="orderborder">
+            <a href="" id="order-now">Order Now</a>
+        </section>
+    </footer>
+
+    <script defer src="scripts/script.js"></script>
 </body>
-	
 </html>
+
+
+
+
+
+
+
